@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.wrapper{
+background-color: #889697 ;
+min-height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.wrapper h1{
+    font-family: inherit;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 15px;
+    word-spacing: 4px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.wrapper h1 span{
+    color: #ce2c5a;
+    text-decoration: underline;
+ 
+}
+.wrapper .text {
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap: 20px; 
+}
+.wrapper .text select{
+height: 35px;
+border: 0;
+outline: 0;
+padding: 0 20px;
+border-radius: 8px;
+appearance: none;
+flex: 1.2;
+background-image: url("./images/dropdown.png");
+background-repeat: no-repeat;
+background-size: 15px;
+background-position-x: 95%;
+background-position-y: 50%;
+
+
+
+}
+.wrapper textarea{
+    flex: 2;
+    width:500px;
+    height: 250px;
+    resize: none;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+.wrapper textarea::placeholder{
+    color: #928f8f;
+}
+.wrapper #listen{
+    padding: 10px 10px;
+    margin-top:15px;
+    border-radius: 30%;
+    font-size: 1.2rem;
+    font-weight: 550;
+    font-family: inherit;
+    color: #fff;
+    background-color: #e13667;
+    border: none;
+    outline: none;
+    display: flex;
+    gap: 10px;
+}
+
+.wrapper #listen img{
+    widows: 20px;
+    height: 20px;
+    border-radius: 60%; 
+}
